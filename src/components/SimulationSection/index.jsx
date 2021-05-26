@@ -1,4 +1,5 @@
 import {InputValues} from '../InputValues'
+import {ResultsValue} from '../ResultsValue'
 
 import { Container } from './styles';
 
@@ -19,11 +20,12 @@ export function SimulationSection() {
 
       <div className="rightSection">
           <p>amanhã você receberá</p>
-          <h1>R$ 0,00</h1>
+          <ResultsValue/>
           <p>em 15 dias você receberá</p>
-          <h1>R$ 0,00</h1>
+          <ResultsValue/>
           <p>em 30 dias você receberá</p>
-          <h1>R$ 0,00</h1>
+          <ResultsValue/>
+          
       </div>
     </Container>
   )

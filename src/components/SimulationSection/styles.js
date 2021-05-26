@@ -41,22 +41,6 @@ export const Container = styled.div`
         color: var(--preto);
         margin-right: 4rem;
       }
-
-      button{
-        margin-right: 1rem;
-        width: 2.1875rem;
-        height: 2.1875rem;
-        border: none;
-        border-radius: 50%;
-        color: var(--branco);
-        background-color: var(--azul-escuro);
-        font-size: 1.3rem;
-        transition: filter 0.2s;
-      }
-
-      button:hover{
-        filter: brightness(0.8);
-      }
     }
 
     div.NumParcel{
@@ -72,22 +56,6 @@ export const Container = styled.div`
         font-weight: 700;
         color: var(--preto);
         margin-right: 4.6rem;
-      }
-
-      button{
-        margin-right: 1rem;
-        width: 2.1875rem;
-        height: 2.1875rem;
-        border: none;
-        border-radius: 50%;
-        color: var(--branco);
-        background-color: var(--azul-escuro);
-        font-size: 1.3rem;
-        transition: filter 0.2s;
-      }
-
-      button:hover{
-        filter: brightness(0.8);
       }
     }
 
@@ -111,12 +79,6 @@ export const Container = styled.div`
         font-size: 1rem;
         color: #000;
         margin-top: 1rem;
-      }
-
-      h1{
-        font-size: 3rem;
-        font-weight: 500;
-        color: var(--azul-escuro);
       }
   }
 `;
