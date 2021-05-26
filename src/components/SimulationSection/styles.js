@@ -19,27 +19,12 @@ export const Container = styled.div`
     max-width: 420px;
     margin-right: 14rem;
 
-
-    h3{
-      font-size: 1.5rem;
-      font-weight: 400;
-      color: var(--cinza-escuro);
-      margin: 1rem 0 1rem 0;
-    }
-
     div.valueSell{
       display: flex;
       align-items: center;
 
       div{
         max-width: 230px;
-      }
-
-      h1{
-        font-size: 2rem;
-        font-weight: 700;
-        color: var(--preto);
-        margin-right: 4rem;
       }
     }
 
@@ -49,13 +34,6 @@ export const Container = styled.div`
 
       div{
         max-width: 230px;
-      }
-
-      h1{
-        font-size: 2rem;
-        font-weight: 700;
-        color: var(--preto);
-        margin-right: 4.6rem;
       }
     }
 

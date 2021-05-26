@@ -16,5 +16,8 @@ export const Container = styled.div`
       height: 37px;
       width: 240px;
       border-radius: 4px;
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--preto);
     }
 `;
