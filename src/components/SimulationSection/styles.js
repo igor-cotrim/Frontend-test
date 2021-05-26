@@ -9,15 +9,16 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
 
+  h2{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--azul-escuro);
+  }
+  
   div.letfSection{
     max-width: 420px;
     margin-right: 14rem;
 
-    h2{
-      font-size: 2rem;
-      font-weight: 700;
-      color: var(--azul-escuro);
-    }
 
     h3{
       font-size: 1.5rem;
