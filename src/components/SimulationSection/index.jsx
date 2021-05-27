@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useState } from 'react'
 import { InputValues } from '../InputValues'
 import { ResultsValue } from '../ResultsValue'
@@ -35,11 +36,12 @@ export function SimulationSection() {
 
   return (
     <Container>
-      <div>
+      <div className="letfSection">
         <h2>Faça sua simulação</h2>
 
         <InputValues 
           label="Valor da venda*"
+          currency="R$"
           value={amount}
           onChange={e => setAmount(e.target.value)}
         />
@@ -47,6 +49,7 @@ export function SimulationSection() {
         <InputValues 
           label="Em quantas parcelas*"
           value={installments}
+          parcel="parcelas"
           onChange={e => setInstallments(e.target.value)}
         />
 

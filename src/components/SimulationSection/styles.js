@@ -13,29 +13,12 @@ export const Container = styled.div`
     font-size: 2rem;
     font-weight: 700;
     color: var(--azul-escuro);
+    margin-bottom: 3rem;
   }
   
   div.letfSection{
-    max-width: 420px;
+    max-width: 452px;
     margin-right: 14rem;
-
-    div.valueSell{
-      display: flex;
-      align-items: center;
-
-      div{
-        max-width: 230px;
-      }
-    }
-
-    div.NumParcel{
-      display: flex;
-      align-items: center;
-
-      div{
-        max-width: 230px;
-      }
-    }
 
     p{
       font-size: 1rem;
