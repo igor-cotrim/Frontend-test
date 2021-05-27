@@ -25,6 +25,7 @@ export const Container = styled.div`
       font-weight: 400;
       color: var(--cinza-escuro);
       margin-top: 4rem;
+      max-width: 420px;
     }
   }
 
@@ -33,7 +34,7 @@ export const Container = styled.div`
     border-radius: 1rem;
     width: 370px;
     height: 411px;
-    padding: 2.8rem;
+    padding: 2.6rem;
 
       p{
         font-weight: 400;

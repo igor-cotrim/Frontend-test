@@ -39,11 +39,14 @@ export function SimulationSection() {
       <div className="letfSection">
         <h2>Faça sua simulação</h2>
 
-        <InputValues 
+        <InputValues
           label="Valor da venda*"
-          currency="R$"
+          currency="R$ "
           value={amount}
           onChange={e => setAmount(e.target.value)}
+          size="10rem"
+          margin="1rem"
+          min="1000"
         />
 
         <InputValues 
@@ -51,6 +54,8 @@ export function SimulationSection() {
           value={installments}
           parcel="parcelas"
           onChange={e => setInstallments(e.target.value)}
+          min="1"
+          max="12"
         />
 
         <p>

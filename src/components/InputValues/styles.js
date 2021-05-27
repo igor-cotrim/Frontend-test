@@ -19,16 +19,23 @@ export const Container = styled.div`
         font-weight: 700;
         color: var(--preto);
       }
-
-      input{
-        border: none;
-        margin: 1rem 0 1rem 0;
-        height: 37px;
-        width: 240px;
-        border-radius: 4px;
-        font-size: 2rem;
-        font-weight: 700;
-        color: var(--preto);
-      }
     }
+`;
+
+export const Input = styled.input.attrs(props => ({
+  // we can define static props
+  type: "number",
+  
+  // or we can define dynamic ones
+  size: props.size || "3rem",
+  margin: props.margin || "1rem 0 1rem 0",
+}))`
+  border: none;
+  margin: ${props => props.margin};
+  height: 37px;
+  width: ${props => props.size};
+  border-radius: 4px;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--preto);
 `;
