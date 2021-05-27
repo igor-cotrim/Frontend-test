@@ -47,6 +47,7 @@ export function SimulationSection() {
           size="10rem"
           margin="1rem"
           min="1000"
+          placeholder="1000"
         />
 
         <InputValues 
@@ -56,6 +57,7 @@ export function SimulationSection() {
           onChange={e => setInstallments(e.target.value)}
           min="1"
           max="12"
+          placeholder="1"
         />
 
         <p>
