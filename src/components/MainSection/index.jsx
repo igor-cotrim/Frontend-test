@@ -11,7 +11,11 @@ export function MainSection()  {
           <img src={line} alt="linha para separar o titulo do subtitulo" />
           <h2>Antecipe as suas parcelas com muito mais segurança.</h2>
         </div>
-        <img className="mainImage" src={mainImage} alt="imagem de uma mulher feliz mexendo no computador" />
+        <img 
+          className="mainImage" 
+          src={mainImage} 
+          alt="imagem de uma mulher feliz mexendo no computador" 
+        />
     </Container>
   )
 }
