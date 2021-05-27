@@ -12,6 +12,5 @@ export function ResultsValue({ value }) {
 
 ResultsValue.propTypes = {
   value: PropTypes.number,
-  placeholder: PropTypes.string,
 };
 
