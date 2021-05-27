@@ -5,13 +5,13 @@ import { Container } from './styles';
 export function ResultsValue({ value }) {
   return (
     <Container>
-      <h1 >{value}</h1>
+      <h1>{value}</h1>
     </Container>
   )
 }
 
 ResultsValue.propTypes = {
-  days: PropTypes.string,
   value: PropTypes.number,
+  placeholder: PropTypes.string,
 };
 
