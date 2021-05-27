@@ -21,7 +21,7 @@
 Hoje nossos clientes precisam saber quanto custa antecipar uma transação, e para isso, precisamos desenvolver uma calculadora de antecipação para que os mesmos consigam saber quais valores receberão caso optem por antecipar o recebimento.
 
 ## :eyes: Deploy
-👉  Deploy: https://friendly-babbage-eb4ff5.netlify.app
+<a href="https://friendly-babbage-eb4ff5.netlify.app" target="_blank">👉  Deploy</a>
 
 ## :rocket: Recursos
 
