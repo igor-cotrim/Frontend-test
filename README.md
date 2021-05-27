@@ -4,6 +4,7 @@
 
 <p align = "center">
  <a href="#-sobre">Sobre</a> •
+ <a href="#eyes-deploy">Deploy</a> •
  <a href="#rocket-recursos"> Recursos </a> •
  <a href="#-tecnologias"> Tecnologias </a> •
  <a href="#construction_worker-como-executar"> Como executar </a> •
@@ -19,6 +20,8 @@
 
 Hoje nossos clientes precisam saber quanto custa antecipar uma transação, e para isso, precisamos desenvolver uma calculadora de antecipação para que os mesmos consigam saber quais valores receberão caso optem por antecipar o recebimento.
 
+## :eyes: Deploy
+👉  Deploy: https://friendly-babbage-eb4ff5.netlify.app
 
 ## :rocket: Recursos
 
