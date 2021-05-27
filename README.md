@@ -4,11 +4,11 @@
 
 <p align = "center">
  <a href="#-sobre">Sobre</a> •
- <a href="#-rocket-features"> Recursos </a> •
- <a href="#-computer-technologies"> Tecnologias </a> •
- <a href="#construction_worker-how-to-run"> Como executar </a> •
- <a href="#closed_book-license"> Licença </a> •
- <a href="#-author"> Autor </a>
+ <a href="#rocket-recursos"> Recursos </a> •
+ <a href="#-tecnologias"> Tecnologias </a> •
+ <a href="#construction_worker-como-executar"> Como executar </a> •
+ <a href="#closed_book-licença"> Licença </a> •
+ <a href="#-autor"> Autor </a>
 </p>
  
 <div align = "center">
